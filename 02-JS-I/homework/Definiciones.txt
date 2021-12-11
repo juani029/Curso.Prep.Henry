@@ -1,0 +1,17 @@
+Variables: Las variables son como cajas, cada caja contiene un nombre, un valor y un tipo de dato. El nombre puede estar compuesto por cualquier tipo de carácter.
+El valor puede ser cualquiera dentro de su tipo. Los tipos de datos pueden ser strings, numbers y booleans.
+
+Strings: Los strings son variables usadas para representar texto. Los strings agrupan caracteres como una palabra o un conjunto de estas. 
+
+Funciones: Una función es un conjunto de instrucciones que se agrupan para realizar una tarea en especifico y que se puede reutilizar fácilmente.
+
+Argumentos: Una función puede requerir información extra para funcionar, cuando una función es llamada podemos darle argumentos(información extra) para ser usados
+dentro de la misma. Puede recibir tantos parámetros como se deseen y pueden ser: valores simples, variables u objetos.
+
+Return: Opcionalmente dentro de una función podes retornar un valor utilizando la palabra clave return. Esto hace la funcion más reutilizable. El return es la última
+línea que se ejecuta de una función.
+
+If: A veces dentro del código necesitamos ejecutar instrucciones o tomar decisiones dependiendo de una condición, para esto utilizamos los condicionales(if, elseif, else).
+
+Booleans: Existen dos valores booleanos en programación (true y false) o en español (verdadero y falso). Estos valores nos facilitan el razonamiento al programar y 
+ayuda a la maquina a tomar deciciones.
