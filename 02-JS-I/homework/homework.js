@@ -171,10 +171,10 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if(numero > 0) {
-    return console.log("Es positivo");
+    return "Es positivo";
   }
   if (numero < 0) {
-    return console.log("Es negativo");
+    return "Es negativo";
   }else{
     return false;
   }
@@ -235,12 +235,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.lenght > 2) {
-    return console.log("Dato incorrecto");
+    return "Dato incorrecto";
   }
   if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
-    return console.log("Es vocal");
+    return "Es vocal";
   }else{
-    return console.log("Dato incorrecto");
+    return "Dato incorrecto";
   }
 }
 // No modificar nada debajo de esta línea
