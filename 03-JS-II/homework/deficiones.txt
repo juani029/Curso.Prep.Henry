@@ -1,0 +1,6 @@
+for: se trata de una instrucción repetitiva, que consiste en repetir una o mas instrucciones un determinado número de veces.
+Se suele utilizar cuando sabemos exactamente cuantas veces queremos que se ejecute el bucle. 
+
+&&: estos dos símbolos representan un operador lógico, se utiliza para evaluar una expresión con otra, devolvera verdadero si AMBAS expresiónes son true. 
+||: estos dos símbolos representan un operador lógico, se utiliza para evaluar una expresión con otra, devolvera falso si AMBAS expresiónes son falsas.
+!: este signo de exclamación representa un operador lógico, se utiliza para negar una expresión boolean, si la expresión resulta verdadero devuelve falso y si resulta falso devuelve verdadero.
