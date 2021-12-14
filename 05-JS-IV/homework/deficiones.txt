@@ -1,0 +1,21 @@
+	* Objetos: Los Objetos son parecidos a los arreglos, a diferencia de que sus índices son cademas y no números.
+    Un objeto es como un elemento de la vida real el cual cuenta con un nombre y propiedades. A la vez, 
+    estas propiedades cuentan con un valor. En javascript los objetos pueden contener mucha cantidad de propiedades,
+    pero solo puede haber una con su mismo nombre. En cambio, los valores que toman estas propiedades pueden repetirse, 
+    tambien pueden tomar cualquier tipo de dato existente en javascript; cadena, número, booleano, arreglo, función o
+    incluso otro objeto.
+
+	* Propiedades: Las propiedades representan una característica de un objeto. Estas pueden contener varios valores.
+    Por ejemplo un objeto llamado auto. Sus propiedades serian: color, antigüedad, modelo. 
+    Y los valores serian color:red, antigüedad: 5, modelo:2010.
+	
+    * Métodos: Habiamos dicho que en un objeto, las propiedades pueden contener cualquier tipo de valor. Uno de estos
+    tipos de valores puede ser una función, al guardar estas funciónes dentro de un objeto se las denomina métodos.
+
+	* Bucle `for…in`: Hasta ahora dentro de la carrera hemos visto diferentes tipos de bucles, pero ninguno que nos 
+    sirva para recorrer un objeto. Para eso utilizamos el bucle "for..in", este nos servirá cuando queramos iterar 
+    sobre cada propiedad y finalizara cuando haya recorrido cada una de estas.
+
+	* Notación de puntos vs notación de corchetes: La notación de puntos fue creada para facilitar el acceso a un
+    objeto, la vamos a utilizar cuando queramos acceder a una propiedad en especifico. La notación de corchetes cumple
+    la mista función que la notación de puntos pero es mas extensa, la vamos a utilizar en casos especiales.
