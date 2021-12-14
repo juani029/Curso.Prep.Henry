@@ -1,0 +1,2 @@
+Arrays: Los arrays o arreglos son listas de elementos que nos sirven para guardar cualquier tipo de datos. Estos pueden tener la cantidad de elementos
+que deseemos. Fuera del mismo podemos hacer uso de los elementos haciendo su llamado, asimismo eliminar y agregar elementos a nuestro parecer.
