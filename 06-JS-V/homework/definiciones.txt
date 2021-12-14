@@ -1,0 +1,8 @@
+* `prototype`: Todos los objetos en Javascript heredan propiedades y métodos de un prototipo.
+Un objeto en JS tiene otro objeto, llamado prototype. Así, un prototipo es otro objeto que se 
+utiliza como fuente de propiedades alternativa.
+
+* _Constructors_ (de Clases): El constructor, como su nombre indica, es el código que construye y configura un objeto cuando se crea con new. 
+Todas las clases tienen un constructor, si no escribimos nada dentro de class se crea por defecto un constructor vacío. 
+Si queremos escribir un constructor por nosotros mismos tenemos que incluir una función llamada constructor dentro del cuerpo de la clase.
+En el caso de function es el cuerpo de la función la que hace de constructor, de hecho, se les suele llamar funciones constructoras para diferenciarlas de las funciones que no se van a utilizar con new.
