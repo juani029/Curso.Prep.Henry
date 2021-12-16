@@ -1,0 +1,1 @@
+* Funciones Callback: En Javascript existe la posibilidad de pasar una función como argumento a otra función. Estas funciones las llamamos callbacks.
