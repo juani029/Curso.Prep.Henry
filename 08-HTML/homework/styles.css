@@ -3,15 +3,21 @@ h1 {
 }
 img { 
     width: 400px;
+    height: 250px;
 }
 #thirdDiv {
-    width:500px; 
-    height: 600px; 
-    background: rgb(rgb(166, 221, 16));
-    padding: 50px;
+    width: 600px; 
+    height: 500px; 
+    background-color: green;
     border: 2px solid #000;
+    padding: 50px;
+    margin: 50px;
 }
 #spanId{
     font-size: 18px;
     margin: 50px;
+}
+
+.divClass{
+    background: gray;
 }
