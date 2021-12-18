@@ -156,8 +156,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  num = Math.ceil(num);
-  return num;
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
@@ -174,7 +173,7 @@ function esPositivo(numero) {
   if(numero > 0) {
     return "Es positivo";
   }
-  if (numero < 0) {
+  else if(numero < 0) {
     return "Es negativo";
   }else{
     return false;
@@ -191,14 +190,14 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre + " " + apellido;
+  return `${nombre} ${apellido}`;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola " + nombre + "!";
+  return `Hola ${nombre}!`;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
